@@ -25,7 +25,14 @@ Schematic:
     [ "chip1:CSN", "uno:8", "green", [ "h69.01", "v57.6", "h18.8" ] ]
   ],
 ````
-after uploading the given sketch, what happens is that, nrf24l01+ module starts scanning each channels by tuning its PLL configuration every 130us to change to next channel. the received data signals from each of 126 channels the module can read are mapped to individual LEDs. What exactly is the received data? to answer that we have to dig a bit deeper into the inner working of nrf24L01+ chip.
+after uploading the given sketch, what happens is that, nrf24l01+ module starts scanning each channels by tuning its PLL configuration every 130us to change to next channel. the received data signals from each of 126 channels the module can read are mapped to individual LEDs.
+
+
+https://github.com/user-attachments/assets/5017ae2a-c1e0-4324-a9aa-48e76c01fc4e
+
+
+
+What exactly is the received data? to answer that we have to dig a bit deeper into the inner working of nrf24L01+ chip.
 
 this image of functional block diagram of nrf24L01+ is from the official datasheet
 <img width="1150" height="854" alt="image" src="https://github.com/user-attachments/assets/79d01bef-67ef-41c2-9ab5-4d2cde3346b6" />
