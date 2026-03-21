@@ -51,9 +51,9 @@ with this basic understanding out of the way, we were trying to see traffic due 
 
 what exactly is different?
 
-brief about WiFi
+WiFi is a bit of compilcated thing it uses multiple types of modulations, they are Quadrature Amplitude Modulation (QAM) and Phase Shift Keying (PSK), this inturn increases the amount of data per symbol (like making the modulations more dense). WiFi uses transmission method called orthogonal Frequency Division Multiplexing (OFDM), which sends data on sin and cosine carrier types with the phase of being in the form 2*pi*(fc + 1/Ts) where Ts is the time period of one symbol (you can think of symbol as a chunk of data divided using time axis). Higher QAM -> More data transmission speed.
 
-brief about Bluetooth
+Bluetooth 
 
 explain what exactly being captured
 
