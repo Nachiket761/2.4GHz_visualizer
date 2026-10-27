@@ -1,4 +1,4 @@
-# 2.4GHz_visualizer
+# 2.4GHz Band Channel Energy Detector
 
 Part of the PH222 Microprocessor Lab project. The goal is to sweep across all 128 channels of the 2.4 GHz ISM band and represent the activity on each channel using color and intensity on an LED matrix — effectively building a low-cost, low-resolution spectrum analyzer. A secondary goal was to see whether this same hardware could be pushed further to intercept BLE (Bluetooth Low Energy) advertising traffic. Spoiler: it can *see* BLE energy, but it can't *decode* BLE packets — and the "why" turns out to be the most interesting part of this project. More on that below.
 
